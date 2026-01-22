@@ -448,8 +448,8 @@ footer .footer-content p span{
     left: 0;
     height: 100vh;
     width: 100vw;
-    background-color: var(--bg-color-2);
-    z-index: 100;
+    background-color:black;
+    z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -501,9 +501,7 @@ html{
     color: black;
     cursor: pointer;
   }
-header{
-  height: 70vh;
-}
+
   .head-title .login{
     background-color: var(--second-color);
   }
@@ -513,7 +511,7 @@ header{
   header .content  {
   
     display: flex;
-    height: calc(90vh - 20vh);
+    height: calc(100vh - 10vh);
     
     
   }
@@ -588,7 +586,7 @@ header{
 
 
 /* tablets screens  */
-@media screen and (min-width:575px) and (max-width:767px) {
+@media screen and (min-width:576px) and (max-width:767px) {
   
 html{
   font-size: 13px;
@@ -600,7 +598,7 @@ html{
     display: none;
   }
   .menu{
-    display: block;
+    
     position: relative;
     cursor: pointer;
     top: 0;
@@ -615,7 +613,7 @@ html{
     order: 1;
   }
   .close{
-    display: block; 
+    display: block;
     position: absolute;
     top: 2rem;
     right: 2rem;
@@ -625,9 +623,7 @@ html{
     color: black;
     cursor: pointer;
   }
-header{
-  height: 70vh;
-}
+
   .head-title .login{
     background-color: var(--second-color);
   }
@@ -719,8 +715,11 @@ header{
     .active{
       width: 50vw;
       left: 50vw;
+      display: flex;
+      
       
     }
+   
     .close{
 
       
