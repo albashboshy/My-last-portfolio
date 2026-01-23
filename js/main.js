@@ -26,3 +26,9 @@ close.addEventListener("click", ()=>{
     once: true
   });
 
+let cv = document.querySelector("#mycv")
+
+cv.addEventListener("click", function(){
+  alert('please contact us from last section by my number for my cv ')
+}
+)
